@@ -1,0 +1,54 @@
+1.Open Terminal/Command Prompt and navigate to your Desktop
+cd Desktop/
+
+2.Create a folder/directory and name it Dojo Assignments
+mkdir dojo_assignments
+
+3.Navigate into your new directory and create the following folders: WebFundamentals, Python, MEAN, Ruby, iOS, netCore
+mkdir webfundamentals python mean ruby ios netcore
+
+4.Add an about.txt file to each of the newly created folders
+cd webfundamentals
+touch about.txt
+cd ..
+cd python
+touch about.txt
+cd ..
+cd mean
+touch about.txt
+cd ..
+cd ruby
+touch about.txt
+cd ..
+cd ios
+touch about.txt
+cd ..
+cd netcore
+touch about.txt
+cd ..
+
+5. Navigate into WebFundamentals and create the following folders: Git, HTML, CSS, Javascript
+cd webfundamentals
+mkdir git html css javascript
+
+6. Add an about.txt file to each of those newly created folders
+cd git
+touch about.txt
+cd ..
+cd html
+touch about.txt
+cd ..
+cd css
+touch about.txt
+cd ..
+cd javascript
+touch about.txt
+cd ..
+
+7. Navigate into your HTML directory and create a file called indentation.html
+cd html
+touch indentation.html
+
+8.(mac/linux/bash) - Use the command ls -R then copy the result and save it to a file called assignments.txt and upload it below
+cd ../..
+ls -R

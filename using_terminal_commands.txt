@@ -1,0 +1,34 @@
+1. Navigate to your Desktop
+cd Desktop/
+
+2. Create a new directory, call it 'test'
+mkdir test
+
+3. Make files called index.html, styles.css, commands.txt inside the test directory
+cd test
+touch index.html styles.css commands.txt
+
+4. Make a copy of index.html and call it index_2.html
+cp index.html index_2.html
+
+5. In the 'test' directory, remove the 'styles.css' file
+rm styles.css
+
+6. Navigate back to your desktop and make another directory, call it 'destination'
+cd ..
+mkdir destination
+
+7. Move the index_2.html file from 'test' to the 'destination' directory
+cd test
+mv index_2.html ../destination
+
+8. Now, check and see what files are in the 'test' and 'destination' directories
+ls
+cd ../destination
+ls
+
+9. Delete the 'destination' directory
+cd ..
+rm -rf destination
+
+10. Write the commands you used to do the above and save them in commands.txt.

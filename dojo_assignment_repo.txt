@@ -1,0 +1,23 @@
+1.Create a new repository on GITHUB and call it DojoAssignments
+*hypothetically done*
+
+2.Open your terminal/command prompt, navigate to your DojoAssignments folder
+created earlier
+cd Desktop/codingdojo/webfun/git/dojoassignments
+
+3.Initialize a git repository in your DojoAssignments directory
+git init
+4.Add, commit, and push these changes to GitHub
+git status
+git add
+git commit -m "initial commit"
+
+5.Make a readme.md in your DojoAssignments folder explaining about it's
+contents.
+touch readme.txt
+
+6.Do a status check to see the changes made, then add, commit and push your
+changes
+git status
+git add
+git commit -m "added readme.txt"

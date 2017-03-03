@@ -1,0 +1,39 @@
+1.Write your commands in a text file and upload it below
+
+2.Open terminal and navigate to your desktop
+cd ~
+
+3.Create a new folder and call it 'test'
+mkdir test
+
+4.Create three files, 'index.html' & 'styles.css' & 'aboutMe.txt'
+touch index.html styles.css aboutMe.txt
+
+5.Create your git repository and make an initial commit with a comment
+git init
+git add .
+git commit -m "Initial commit"
+
+6.Write a small bio of yourself in the aboutMe.txt file, commit the changes
+with the message 'updated aboutMe'
+git add aboutMe.txt
+git commit -m "updated aboutMe"
+
+7.Add your favorite movie to your aboutMe.txt file and commit the changes
+with the message 'added favorite movie to aboutMe'
+git add aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+
+8.View the logs to see your commit history
+git log
+
+9.Revert to your last commit, make changes, and recommit
+git revert -n HEAD
+Finished one revert.
+git revert -n 540ecb7
+Removed copy.txt
+Finished one revert.
+git commit -m "revert 45eaf98 and 540ecb7"
+Created commit 2b3c1de: revert 45eaf98 and 540ecb7
+2 files changed, 0 insertions(+), 10 deletions(-)
+delete mode 100644 copy.txt
